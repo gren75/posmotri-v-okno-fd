@@ -19,16 +19,16 @@ html {
 }
 
 .page {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-inline-size: 1200px;
-	block-size: 100%;
-	margin: auto;
-	color: #fff;
-	font-family: 'Fira Sans Condensed', sans-serif;
-	font-size: 18px;
-	background-color: #1b1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-inline-size: 1200px;
+    block-size: 100%;
+    margin: auto;
+    color: #fff;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    background-color: #1b1919;
 }
 
 h1,
@@ -64,77 +64,77 @@ ol {
 }
 
 .content {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-end;
-	max-width: 1140px;
-	width: 100%;
-	gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1140px;
+    width: 100%;
+    gap: 30px;
 }
 
 .result {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-	gap: 15px;
-	width: 711px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    width: 711px;
 }
 
 .result__video-container {
-	height: 390px;
-	width: 711px;
-	position: relative;
+    height: 390px;
+    width: 711px;
+    position: relative;
 }
 
 .result__video {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .search-form {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	width: 711px;
-	margin-bottom: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 711px;
+    margin-bottom: -5px;
 }
 
 .search-form__fieldset {
-	border: none;
-	padding-right: 4px;
+    border: none;
+    padding-right: 4px;
 }
 
 .search-form__fieldset-title {
-	font-weight: normal;
-	font-size: 17px;
-	margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 
 .search-form__label {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	width: fit-content;
-	gap: 3.5px;
-	cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    gap: 3.5px;
+    cursor: pointer;
 }
 
 .search-form__textfield {
-	color: #fff;
-	background-color: transparent;
-	appearance: none;
-	cursor: pointer;
-	border: none;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
-	font-family: 'Fira Sans Condensed', sans-serif;
-	font-size: 18px;
-	width: 225px;
-	line-height: 19px;
+    color: #fff;
+    background-color: transparent;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    width: 225px;
+    line-height: 19px;
 }
 
 
@@ -156,8 +156,8 @@ ol {
 }
 
 .search-form__checkbox-list {
-	display: flex;
-	gap: 15px;
+    display: flex;
+    gap: 15px;
 }
 
 .search-form__checkbox {
@@ -247,57 +247,57 @@ ol {
 }
 
 .content__details {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-	gap: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 .title {
-	font-family: 'Oswald';
-	font-weight: bold;
-	font-size: 75px;
-	line-height: 94%;
-	color: white;
-	text-transform: uppercase;
-	margin-top: 0px;
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 94%;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0px;
 }
 
 .content__accent {
-	color: #545050;
-	font-weight: bold;
-	font-size: 75px;
-	line-height: 94%;
-	text-transform: uppercase;
+    color: #545050;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 94%;
+    text-transform: uppercase;
 }
 
 .content__list-container {
-	max-height: 298px;
-	overflow-y: auto;
-	gap: 30px;
-	display: flex;
-	flex-direction: column;
-	overflow-x: hidden;
+    max-height: 298px;
+    overflow-y: auto;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 
 .content__list {
-	display: flex;
-	flex-direction: column;
-	width: 390px;
-	gap: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    gap: 30px;
 }
 
 .content__list-item {
-	padding-left: 3px;
-	cursor: pointer;
+    padding-left: 3px;
+    cursor: pointer;
 }
 
 .content__card-link {
-	color: white;
-	text-decoration: none;
-	display: block;
+    color: white;
+    text-decoration: none;
+    display: block;
 }
 
 .content__card-link_current {
@@ -317,47 +317,47 @@ ol {
 }
 
 .content__video-card {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .content__video-card-description-container {
-	flex-grow: 1;
+    flex-grow: 1;
 }
 
 .content__video-card-title {
-	font-family: 'Oswald';
-	text-transform: uppercase;
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	max-width: 196px;
-	display: block;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 196px;
+    display: block;
 }
 
 .content__video-card-description {
-	color: white;
-	font-family: 'Fira Sans Condensed';
-	line-height: 16.2px;
-	font-size: 18px;
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 4;
-	line-clamp: 4;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	max-width: 196px;
+    color: white;
+    font-family: 'Fira Sans Condensed';
+    line-height: 16.2px;
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 196px;
 }
 
 .content__video-card-thumbnail {
-	height: 103px;
-	width: 194px;
-	object-fit: cover;
-	object-position: center;
-	flex-shrink: 0;
+    height: 103px;
+    width: 194px;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
 }
 
 .more-button {
