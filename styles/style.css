@@ -173,7 +173,6 @@ ol {
 	background-color: #1B1919;
 	gap: 1px;
 	cursor: pointer;
-	position: relative;
 	opacity: 1;
 }
 
@@ -185,7 +184,6 @@ ol {
 	inline-size: 15px;
 	block-size: 15px;
 	margin: 1px;
-	position: absolute;
 	opacity: 0;
 }
 
@@ -281,7 +279,6 @@ ol {
 	gap: 30px;
 	display: flex;
 	flex-direction: column;
-	position: relative;
 	overflow-x: hidden;
 }
 
@@ -352,7 +349,6 @@ ol {
 	line-clamp: 4;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	display: block;
 	max-width: 196px;
 }
 
