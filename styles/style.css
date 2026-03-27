@@ -125,9 +125,8 @@ ol {
 	justify-content: space-between;
 	align-items: center;
 	width: fit-content;
-	gap: 1.5;
-
-
+	gap: 3.5px;
+	cursor: pointer;
 }
 
 
@@ -161,11 +160,6 @@ ol {
 .search-form__checkbox-list {
 	display: flex;
 	gap: 15px;
-}
-
-.search-form__label {
-	gap: 3.5px;
-	cursor: pointer;
 }
 
 .search-form__checkbox {
