@@ -1,36 +1,36 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-  block-size: 100%;
+	block-size: 100%;
 }
 
 .visually-hidden {
-  position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
+	position: absolute;
+	inline-size: 1px;
+	block-size: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	white-space: nowrap;
 }
 
 .page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-  height: 800px;
-  width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	inline-size: 1200px;
+	block-size: 100%;
+	margin: auto;
+	color: #fff;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 18px;
+	background-color: #1b1919;
+	height: 800px;
+	width: 1200px;
 }
 
 
@@ -44,32 +44,31 @@ ol,
 li,
 blockquote,
 fieldset {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 ul,
 ol {
-  list-style: none;
+	list-style: none;
 }
 
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
-  width: 4px;
+	width: 4px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: rgb(217 217 217 / 10%);
+	background: rgb(217 217 217 / 10%);
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+	background-color: #D9D9D9;
 }
 
 
-
 .content {
-  margin-top: 133px;
+	margin-top: 133px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -93,16 +92,14 @@ ol {
 .result__video-container {
 	height: 386px;
 	width: 711px;
-  position: relative;
+	position: relative;
 }
 
 .result__video {
 	height: 100%;
 	width: 100%;
-  object-fit: cover;
+	object-fit: cover;
 }
-
-
 
 
 .search-form {
@@ -114,219 +111,215 @@ ol {
 }
 
 .search-form__fieldset {
-  border: none;
+	border: none;
 }
 
 .search-form__fieldset-title {
-  font-weight: normal;
-  font-size: 18px;
+	font-weight: normal;
+	font-size: 18px;
 }
 
 .search-form__label {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: fit-content;
-  gap: 1.5;
-  
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: fit-content;
+	gap: 1.5;
+
 
 }
 
 
 .search-form__textfield {
-  color: #fff;
-  background-color: transparent;
-  appearance: none;
-  cursor: pointer;
-  border: none;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white; 
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  width: 225px;
+	color: #fff;
+	background-color: transparent;
+	appearance: none;
+	cursor: pointer;
+	border: none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 18px;
+	width: 225px;
 }
 
 .search-form__textfield::placeholder {
-  color: white;
+	color: white;
 }
 
 .search-form__textfield:focus {
-  outline: none;
-  border: 1px solid white;
+	outline: none;
+	border: 1px solid white;
 }
 
 .search-form_textfield label:has(:focus-visible) {
-  outline: 1px solid white;
+	outline: 1px solid white;
 }
 
 
 .search-form__checkbox-list {
-  display: flex;
-  gap: 15px;
+	display: flex;
+	gap: 15px;
 }
 
 .search-form__label {
-  gap: 3.5px;
-  cursor: pointer;
+	gap: 3.5px;
+	cursor: pointer;
 }
 
 .search-form__checkbox {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .search-form__pseudo-checkbox {
-  width: 19px;
-  height: 19px;
-  border: 1px solid white;
-  background-color: white;
-  padding: 1px;
-  gap: 1px;
-  cursor: pointer;
+	width: 19px;
+	height: 19px;
+	border: 1px solid white;
+	background-color: white;
+	padding: 1px;
+	gap: 1px;
+	cursor: pointer;
 }
 
 .search-form__pseudo-checkbox:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: #1B1919;
-  opacity: 1;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #1B1919;
+	opacity: 1;
 }
 
 
 .search-form__label:hover .search-form__label-text {
-  text-decoration: underline;
+	text-decoration: underline;
 }
+
 .search-form__pseudo-checkbox:focus {
-  outline: 1px solid white;
+	outline: 1px solid white;
 }
 
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  opacity: 0;
+.search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	opacity: 0;
 }
-
 
 
 .button {
-  border: 1px solid white;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: transparent;
-  box-sizing: border-box;
-  cursor: pointer;
+	border: 1px solid white;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: transparent;
+	box-sizing: border-box;
+	cursor: pointer;
 }
 
 .button:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .button:active {
-  background-color: #545050;
+	background-color: #545050;
 }
 
 .button:focus {
-  outline: none;
-  border: none;
+	outline: none;
+	border: none;
 }
 
 .button:focus-visible {
-  outline: 1px solid white; 
+	outline: 1px solid white;
 }
 
 .search-form__submit-button {
-  height: 34px;
-  width: 194px;
-  align-self: flex-end;
+	height: 34px;
+	width: 194px;
+	align-self: flex-end;
 }
-
-
 
 
 .content__details {
-  width: 100%;
-  height: 534px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
-  align-items: flex-start;
-  gap: 26px; 
+	width: 100%;
+	height: 534px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 26px;
 }
 
 .title {
-  font-weight: bold;
-  font-size: 75px;
-  line-height: 94%;
-  color: white;
-  text-transform: uppercase;
+	font-weight: bold;
+	font-size: 75px;
+	line-height: 94%;
+	color: white;
+	text-transform: uppercase;
 }
 
 
 .content__accent {
-  color: #545050;
-  font-weight: bold;
-  font-size: 75px;
-  line-height: 94%;
-  text-transform: uppercase;
+	color: #545050;
+	font-weight: bold;
+	font-size: 75px;
+	line-height: 94%;
+	text-transform: uppercase;
 }
 
 
 .content__list-container {
 	height: 298px;
 	overflow: auto;
-  gap: 30px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+	gap: 30px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
 }
 
 
 .content__list {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 	height: 566px;
 	width: 390px;
-  gap:30px;
+	gap: 30px;
 }
 
 
-
 .content__list-item {
-  padding-left: 3px;
-  padding-right: 3px;
-  cursor: pointer;
+	padding-left: 3px;
+	padding-right: 3px;
+	cursor: pointer;
 }
 
 
 .content__card-link {
-  color: white;
-  text-decoration: none;
-  display: block;
+	color: white;
+	text-decoration: none;
+	display: block;
 }
 
 .content__card-link_current {
-  background-color: #545050;
+	background-color: #545050;
 }
 
 .content__card-link:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .content__card-link:active {
-  background-color: #545050;
+	background-color: #545050;
 }
 
 
-
 .content__card-link:focus-visible {
-  outline: 1px solid white;
+	outline: 1px solid white;
 }
 
 
@@ -334,27 +327,27 @@ ol {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-  gap: 30px;
+	gap: 30px;
 }
 
 .content__video-card-description-container {
-  flex-grow: 1;
+	flex-grow: 1;
 }
 
 .content__video-card-title {
-  text-transform: uppercase;
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
 
 }
 
 
 .content__video-card-description {
-  color: white;
-  line-height: 16.2%;
-  font-size: 18px;
-  margin-top: 6px;
+	color: white;
+	line-height: 16.2%;
+	font-size: 18px;
+	margin-top: 6px;
 }
 
 
@@ -363,12 +356,11 @@ ol {
 	width: 194px;
 	object-fit: cover;
 	object-position: center;
-  flex-shrink: 0;
+	flex-shrink: 0;
 }
 
 
-
 .more-button {
-  height: 34px;
-  width: 100%;
+	height: 34px;
+	width: 100%;
 }
