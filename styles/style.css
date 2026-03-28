@@ -87,6 +87,8 @@ ol {
 	width: 711px;
 	position: relative;
 	flex-shrink: 0;
+	margin-top: 76px;
+	height: 386px;
 }
 
 .result__video {
@@ -277,7 +279,6 @@ ol {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	overflow-y: auto;
 	width: 100%;
 }
 
@@ -320,13 +321,12 @@ ol {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	gap: 0;
 	width: 100%;
 }
 
 .content__video-card-description-container {
 	flex-grow: 1;
-	min-width: 0;
+	min-width: 196px;
 }
 
 .content__video-card-title {
@@ -340,7 +340,9 @@ ol {
 	display: block;
 	white-space: nowrap;
 	width: 100%;
+	padding: 0;
 }
+
 
 .content__video-card-description {
 	color: white;
@@ -355,7 +357,6 @@ ol {
 	text-overflow: ellipsis;
 	display: block;
 	flex-grow: 1;
-	min-width: 0;
 	width: 100%;
 }
 
