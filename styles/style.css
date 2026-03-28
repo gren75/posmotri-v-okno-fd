@@ -355,7 +355,6 @@ ol {
 	line-clamp: 4;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	display: block;
 	flex-grow: 1;
 	width: 100%;
 }
