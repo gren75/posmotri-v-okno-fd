@@ -353,12 +353,9 @@ ol {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	-webkit-line-clamp: 4;
-	display: block;
-	white-space: nowrap;
 	width: 100%;
 	padding: 0;
 	-webkit-box-orient: vertical;
-	flex-grow: 1;
 }
 
 .content__video-card-thumbnail {
